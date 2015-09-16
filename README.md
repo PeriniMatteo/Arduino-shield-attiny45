@@ -24,3 +24,19 @@ Ora l'Arduino è pronto per fare da "programmatore di Attiny"
 In Arduino IDE scriviamo lo sketch da caricare sull'Attiny e, **una volta inserito l'Attiny45 sullo shield**, possiamo procedere con l'upload.
 
 A questo punto l'Attiny sarà programmato e potrà essere inserito nelle nostre schede custom!
+
+##Pinout Attiny45
+
+
+| Pin del Chip | Pin digitale | Pin Analogico |
+|:---:|:---:|:---:|
+| 1 | 5 | A0 |
+| 2 | 3 | A3 |
+| 3 | 4 | A2 |
+| 4 | GND | GND |
+| 5 | 0 |---|
+| 6 | 1 |---|
+| 7 | 2 | A1 |
+| 8 | VCC | VCC |
+
+
