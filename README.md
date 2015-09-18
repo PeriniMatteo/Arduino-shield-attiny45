@@ -39,4 +39,18 @@ A questo punto l'Attiny sarà programmato e potrà essere inserito nelle nostre 
 | 7 | 2 | A1 |
 | 8 | VCC | VCC |
 
+####Le istruzioni compatibili con l’Attiny sono solo le seguenti ([documentazione](https://www.arduino.cc/en/Reference/HomePage)):
+* `pinMode()`
+* `digitalWrite()`
+* `digitalRead()`
+* `analogRead()`
+* `analogWrite() – PWM`
+* `shiftOut() – Software SPI`
+* `pulseIn()`
+* `millis()`
+* `micros()`
+* `delay()`
+* `delayMicroseconds()`
+
+
 
