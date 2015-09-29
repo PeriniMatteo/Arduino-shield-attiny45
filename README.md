@@ -30,12 +30,12 @@ A questo punto l'Attiny sarà programmato e potrà essere inserito nelle nostre 
 
 | Pin del Chip | Pin digitale | Pin Analogico |
 |:---:|:---:|:---:|
-| 1 | 5 | A0 |
+| 1 | RESET | RESET |
 | 2 | 3 | A3 |
 | 3 | 4 | A2 |
 | 4 | GND | GND |
-| 5 | 0 |---|
-| 6 | 1 |---|
+| 5 | 0 (PWM) |---|
+| 6 | 1 (PWM)|---|
 | 7 | 2 | A1 |
 | 8 | VCC | VCC |
 
