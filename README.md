@@ -3,7 +3,7 @@
 
 ###Repository che contiene info su come costruire e usare uno shield per la programmazione del chip Attiny45
 ####Tutte le info riportate sono sotto licenza Public Domain.
-####Tutti i documenti/software allegati hanno la propria licenza
+####Tutti i documenti / software allegati hanno la propria licenza
 Per la programmazione è NECESSARIO usare arduino 1.0.2 perché le nuove versioni danno errore con la libreria Arduino tiny
 
 La libreria serve all’ambiente di sviluppo poiché non è possibile programmare nativamente questi chip.

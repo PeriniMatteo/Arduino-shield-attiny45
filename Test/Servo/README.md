@@ -8,5 +8,5 @@
 
 Il codice sorgente della libreria è reperibile [qui](https://github.com/fri000/Servo8Bit). 
 
-**NB:** Lo sketch va caricato (tramite lo schield) sull'attiny45 **CON ARDUINO IDE 1.0.5**
+**NB:** Lo sketch va caricato (tramite lo shield) sull'attiny45 **CON ARDUINO IDE 1.0.5**
 
