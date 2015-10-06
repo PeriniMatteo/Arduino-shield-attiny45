@@ -32,7 +32,7 @@ A questo punto l'Attiny sarà programmato e potrà essere inserito nelle nostre 
 |:---:|:---:|:---:|
 | 1 | RESET | RESET |
 | 2 | 3 | A3 |
-| 3 | 4 | A2 |
+| 3 | 4 (PWM) | A2 |
 | 4 | GND | GND |
 | 5 | 0 (PWM) |---|
 | 6 | 1 (PWM)|---|
