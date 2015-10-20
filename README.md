@@ -17,7 +17,8 @@ e ci copio la cartella tiny (ottenuta scompattando arduino-tiny-xxx.zip).
 All'interno della cartella tiny è presente un file "Prospective Boards.txt" che contiene le configurazioni per molti chip differenti.
 Bisogna modificare tale file lasciando solamente i chip a cui si è interessati e salvando con nome "boards.txt".
 
-Nella cartella Arduino-Tiny è presente la mia versione di tale file che contiene solo le configuarazioni corrette per Attiny45 1MHz.
+Nella cartella Arduino-Tiny è presente la mia versione di tale file che contiene solo le 
+configuarazioni corrette per Attiny45@1MHz.
 Consiglio di copiare tale file nella cartella tiny "vicino" a "Prospective Boards.txt".
 
 A questo punto aprendo Arduino IDE 1.0.2 dovrei trovare nell'elenco "Strumenti -> Tipo di Arduino" anche il nostro bel Attiny45@1MHz.
@@ -28,7 +29,7 @@ Carichiamo sull'arduino lo sketch **"ArduinoISP"** che si trova in "File -> Esem
 
 Ora l'Arduino è pronto per fare da "programmatore di Attiny"
 
-Assicurarsi di aver selezionato **Strumenti -> Programmatore -> Arduino as ISP ** come modalità di upload!
+Assicurarsi di aver selezionato **Strumenti -> Programmatore -> Arduino as ISP** come modalità di upload!
 
 A questo punto in Arduino IDE possiamo scrivere lo sketch da caricare sull'Attiny e,
  **una volta inserito l'Attiny45 sullo shield**, possiamo procedere con l'upload.
