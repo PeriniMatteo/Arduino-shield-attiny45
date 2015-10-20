@@ -1,0 +1,47 @@
+
+###########################################################################
+#
+# Example boards.txt from...
+#
+# http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1236434254/94#94
+# http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1274754985/6#6
+# http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1274820597/49#49
+#
+###########################################################################
+ 
+###########################################################################
+###########################################################################
+
+attiny45at1.name=ATtiny45 @ 1 MHz
+
+# The following do NOT work...
+# attiny45at1.upload.using=avrispv2
+# attiny45at1.upload.using=Pololu USB AVR Programmer
+
+# The following DO work (pick one)...
+attiny45at1.upload.using=arduino:arduinoisp
+# attiny45at1.upload.protocol=avrispv2
+# attiny45at1.upload.using=pololu
+
+attiny45at1.upload.maximum_size=4096
+
+# Default clock (slowly rising power; long delay to clock; 8 MHz internal; divide clock by 8)
+# Int. RC Osc. 8 MHz; Start-up time PWRDWN/RESET: 6 CK/14 CK + 64 ms; [CKSEL=0010 SUT=10]; default value
+# Divide clock by 8 internally; [CKDIV8=0]
+# Brown-out detection disabled; [BODLEVEL=111]
+# Preserve EEPROM memory through the Chip Erase cycle; [EESAVE=0]
+
+attiny45at1.bootloader.low_fuses=0x62
+attiny45at1.bootloader.high_fuses=0xD7
+attiny45at1.bootloader.extended_fuses=0xFF
+attiny45at1.bootloader.path=empty
+attiny45at1.bootloader.file=empty45at1.hex
+
+attiny45at1.build.mcu=attiny45
+attiny45at1.build.f_cpu=1000000L
+attiny45at1.build.core=tiny
+ 
+###########################################################################
+###########################################################################
+
+
